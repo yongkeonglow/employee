@@ -1,0 +1,26 @@
+[
+    {
+        "name": "YongKeong",
+        "gender": "Male",
+        "marital_status": "Single",
+        "phone": "01133373015",
+        "email": "lowyongkeong04@gmail.com",
+        "address": "135,A jalan simpang 34000 taiping perak",
+        "dob": "2024-12-17",
+        "nationality": "malaysian",
+        "hire_date": "2024-12-17",
+        "department": "Sales executive"
+    },
+    {
+        "name": "steven",
+        "gender": "Male",
+        "marital_status": "Single",
+        "phone": "+601156828699",
+        "email": "stevenwxyt@gmail.com",
+        "address": "481, Belakang Pekan, 34250 Tanjong Piandang, Perak.",
+        "dob": "2002-02-11",
+        "nationality": "malaysian",
+        "hire_date": "2024-12-16",
+        "department": "Sales executive"
+    }
+]

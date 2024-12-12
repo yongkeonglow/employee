@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Add Employee</h2>
+    <form action="process_employee.php" method="POST">
+        <label for="name">Employee Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter employee name" required>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male" style="display: inline;">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female" style="display: inline;">Female</label>
+
+        <label for="marital_status">Marital Status:</label>
+        <select id="marital_status" name="marital_status" required>
+            <option value="">--Select--</option>
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+        </select>
+
+        <label for="phone">Phone No:</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter phone number" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter address" required></textarea>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality" placeholder="Enter nationality" required>
+
+        <label for="hire_date">Hire Date:</label>
+        <input type="date" id="hire_date" name="hire_date" required>
+
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" placeholder="Enter department" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
